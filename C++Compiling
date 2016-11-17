@@ -1,0 +1,5 @@
+lyh@lyh-Surface-Pro-4:~/cppProject$ g++ -c print.cpp -o print.o
+lyh@lyh-Surface-Pro-4:~/cppProject$ g++ -c test.cpp -o test.o
+lyh@lyh-Surface-Pro-4:~/cppProject$ g++ print.o test.o -o test
+lyh@lyh-Surface-Pro-4:~/cppProject$ ./test
+Hello World!
